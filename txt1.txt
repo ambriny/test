@@ -42,10 +42,32 @@ git diff   (shows changes that are made to the code/files)
 
 BRANCHING:
 git branch [branch_name]       (creates a branch)
-git branch               (list all the branches)
+git branch -a              (list all the branches)
 git checkout [branch_name]
+git add -A
+git commit -m "message"
+git push -u origin [Branch_name]
 
 
+MERGE A BRANCH:
+git checkout master
+git pull rigin master
+git branch merged
+git merge [Branch_name]
+git push origin master
+
+
+
+EXAMPLE
+git branch subtract
+git checkout subtract
+git add -A
+git commit -m "subtract added"
+git push -u origin subtract
+git checkout master
+git pull origin master
+git merge subtract
+git push origin master
 
 
 
