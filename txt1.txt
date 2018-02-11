@@ -1,0 +1,19 @@
+git init
+git add [file name]
+git commit -m "coments"
+git push origin master
+
+git remote add origin %path%
+git remote -v    (to verify)
+git remote remove origin
+
+git push origin master
+git pull origin master
+git push origin master -allow-unrelated-histories
+
+git clone %Path%
+
+git fetch origin master
+git merge origin/master
+
+git pull origin master
