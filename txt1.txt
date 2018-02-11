@@ -56,6 +56,11 @@ git branch merged
 git merge [Branch_name]
 git push origin master
 
+DELETING A BRANCH
+git branch --merged
+git branch -d [Branch_Name]   (delete locally)
+git branch -a
+git push origin --delete [Branch_Name]
 
 
 EXAMPLE
@@ -68,19 +73,6 @@ git checkout master
 git pull origin master
 git merge subtract
 git push origin master
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
