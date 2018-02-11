@@ -3,21 +3,75 @@ git config --global user.email "userEmail"
 git config --list
 
 git init
+
+PUSHING CHANGES:
+git diff   (shows changes that are made to the code/files)
+git add -A    (adds everthing in repo to staging area)
 git add [file name]
-git commit -m "coments"
+git commit -m "comments/message"
 git push origin master
 
+TO REMOVE FILE FROM STAGING AREA
+git remove [file name]
+REMOVE EVERYTHING FROM STAGING AREA
+git reset
+
+git status
 git remote add origin %path%
+VIEW INFO ABOUT REMOTE REPOSITORY
 git remote -v    (to verify)
 git remote remove origin
+
+ORIGIN : NAME OF REMOTE REPO
+MASTER : NAME OF ITS BRANCH
 
 git push origin master
 git pull origin master
 git push origin master --allow-unrelated-histories
-
-git clone %Path%
+push 
+git clone %URL%
 
 git fetch origin master
 git merge origin/master
 
 git pull origin master
+git log
+
+PUSHING CHANGES:
+git diff   (shows changes that are made to the code/files)
+
+BRANCHING:
+git branch [branch_name]       (creates a branch)
+git branch               (list all the branches)
+git checkout [branch_name]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
