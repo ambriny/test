@@ -1,3 +1,7 @@
+git conig --global user.name "userName"
+git config --global user.email "userEmail"
+git config --list
+
 git init
 git add [file name]
 git commit -m "coments"
@@ -9,7 +13,7 @@ git remote remove origin
 
 git push origin master
 git pull origin master
-git push origin master -allow-unrelated-histories
+git push origin master --allow-unrelated-histories
 
 git clone %Path%
 
